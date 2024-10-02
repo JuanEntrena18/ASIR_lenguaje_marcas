@@ -1,0 +1,55 @@
+{
+  "equipos": [
+     {
+        "equipo": "Caja Granada",
+        "ciudad": "Granada",
+        "entrenador": "El que sea",
+        "jugadores": [
+            {
+                "nombre": "el base del equipo",
+                "numero":6,
+                "posicion": "base",
+                "nacionalidad": "España"
+            },
+            {
+                "nombre": "el alero del equipo",
+                "numero":8,
+                "posicion": "alero",
+                "nacionalidad": "USA"
+            },
+            {
+                "nombre": "el pivot del equipo",
+                "numero":33,
+                "posicion": "pivot",
+                "nacionalidad": "China"
+                }
+            ]             
+        },
+    {
+        "equipo": "Caja Granada Juveniles",
+        "ciudad": "Zaidin",
+        "entrenador": "El de los niños",
+        "jugadores": [
+                {
+                "nombre": "el base del equipo juveniles",
+                "numero":16,
+                "posicion": "base",
+                "nacionalidad": "España"
+                },
+                {
+                "nombre": "el alero del equipo juveniles",
+                "numero":18,
+                "posicion": "alero",
+                "nacionalidad": "USA"
+                },
+                {
+                "nombre": "el pivot del equipo juveniles",
+                "numero":30,
+                "posicion": "pivot",
+                "nacionalidad": "China"
+                }
+            ] 
+        }
+    ]
+}
+

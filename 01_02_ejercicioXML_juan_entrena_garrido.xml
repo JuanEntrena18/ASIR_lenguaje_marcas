@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Crear documentos XML y JSON que estructuren el siguiente texto incluyendo los siguientes
+campos: destinatario del pedido, artículo pedido, dirección de entrega, fecha de entrega.
+Pedido para el señor Juan Ramírez Sánchez. El pedido se compone de una bicicleta A2023. A
+entregar en la calle Barco 4, tercer piso, letra A, el día 30-10-2024-->
+<pedido>
+    <destinatario>Juan Ramírez Sánchez</destinatario>
+    <articulo>Bicicleta A2023</articulo>
+    <direccion>
+        <calle>Barco</calle>
+        <numero>4</numero>
+        <piso>3</piso>
+        <letra>A</letra>
+    </direccion>
+    <fecha>
+        <dia>30</dia>
+        <mes>10</mes>
+        <año>2024</año>
+    </fecha>
+</pedido>

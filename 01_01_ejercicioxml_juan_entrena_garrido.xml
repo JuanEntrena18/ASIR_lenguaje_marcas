@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Escribir un documento XML bien formado y un documento JSON que guarde información de
+ equipos de baloncesto (nombre, ciudad y entrenador) y sus jugadores (nombre, posición y
+ nacionalidad). La posición (base, escolta, alero, pivot, ala-pivot) deberá representarse
+ mediante un atributo del jugador.
+ Introduzca datos para dos equipos y al menos dos jugadores en cada equipo-->
+<equipos>
+    <equipo>
+        <nombre>Caja Granada</nombre>
+        <ciudad>Granada</ciudad>
+        <entrenador>El que sea</entrenador>
+    </equipo>
+    <jugadores>
+        <jugador numero="1">
+            <nombre>El base del Granada</nombre>
+            <jugador posicion="base"></jugador>
+            <nacionalidad>España</nacionalidad>
+        </jugador>
+        <jugador numero="2">
+            <nombre>El alero del Granada</nombre>
+            <jugador posicion="alero"></jugador>
+            <nacionalidad>EEUU</nacionalidad>
+        </jugador>
+        <jugador numero="3">
+            <nombre>El pivot del Granada</nombre>
+            <jugador posicion="pivot"></jugador>
+            <nacionalidad>China</nacionalidad>
+        </jugador>
+    </jugadores>
+    <equipo>
+        <nombre>Caja Granada Juveniles</nombre>
+        <ciudad>Zaidin</ciudad>
+        <entrenador>El de los niños</entrenador>
+    </equipo>
+    <jugadores>
+        <jugador numero="6">
+            <nombre>El base del juveniles</nombre>
+            <jugador posicion="base"></jugador>
+            <nacionalidad>España</nacionalidad>
+        </jugador>
+        <jugador numero="8">
+            <nombre>El alero del juveniles</nombre>
+            <jugador posicion="alero"></jugador>
+            <nacionalidad>EEUU</nacionalidad>
+        </jugador>
+        <jugador numero="33">
+            <nombre>El pivot del juveniles</nombre>
+            <jugador posicion="pivot"></jugador>
+            <nacionalidad>China</nacionalidad>
+        </jugador>
+    </jugadores>
+</equipos>

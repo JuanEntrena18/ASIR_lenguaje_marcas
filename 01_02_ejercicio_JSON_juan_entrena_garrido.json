@@ -1,0 +1,22 @@
+{
+    "pedido": 
+        {
+        "destinatario":"Juan Ramírez Sánchez",
+        "articulo":"Bicicleta A2023",
+        "direccion":[
+            {
+                "calle":"Barco",
+                "numero":"4",
+                "piso":"piso",
+                "letra":"A"
+            }
+        ],    
+        "fecha":[
+            {
+                "dia":30,
+                "mes":10,
+                "año":2024
+            }
+        ]
+        }
+}

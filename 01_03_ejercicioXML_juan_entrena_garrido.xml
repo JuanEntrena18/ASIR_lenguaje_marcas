@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Escribir documentos XML y JSON que representen la estructura y los datos que se muestran
+en el PDF de los ejercicios-->
+<mensaje>
+    <remitente>
+        <nombre>Alfredo Reino</nombre>
+        <email>alf@ibium.com</email>
+    </remitente>
+    <destinatario>
+        <nombre>Bill Clinton</nombre>
+        <email>president@whitehouse.gov</email>
+    </destinatario>
+    <asunto>
+        <texto>Hola Bill</texto>
+    </asunto>
+    <cuerpo_mensaje>
+        <texto>
+            <parrafo numero="1">¿Hola qué tal?...</parrafo>
+            <parrafo numero="2">...</parrafo>
+        </texto>
+    </cuerpo_mensaje>   
+</mensaje>
