@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6 - Juan Fco Entrena Garrido</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <h1>Formulario con diversos elementos Juan Fco. Entrena Garrido</h1>
+    <form>
+        <!-- Prueba de botones para enviar información-->
+        <p><button type="submit">Enviar</button></p>
+        <p><button type="reset">Resetear</button></p>
+        <p><button type="button">General</button></p>
+        <p><button type="button" style="background: none; border: none;"><img src="./images/fondo_kinder.webp" alt="Botón de imagen" width="120" height="60"></button></p>
+        
+        <!-- Una caja de texto de tamaño 50 pero con limitación de 15 caracteres  -->
+        <p>
+            <label for="textbox1">Caja de texto (max. 15 caracteres y tamaño 50):</label>
+            <input type="text" id="textbox1" name="textbox1" size="50" maxlength="15">
+        </p>
+
+        <!-- Una caja de texto con un valor predeterminado -->
+        <p>
+            <label for="textbox2">Caja de texto con valor predeterminado:</label>
+            <input type="text" id="textbox2" name="textbox2" value="Valor predeterminado">
+        </p>
+
+        <!-- Caja de texto para introducir contraseña -->
+        <p>
+            <label for="password">CONTRASEÑA:</label>
+            <input type="password" id="password" name="password">
+        </p>
+
+        <!-- Selección de fecha con calendario -->
+        <p>
+            <label for="date">Selecciona una fecha:</label>
+            <input type="date" id="date" name="date">
+        </p>
+
+        <!-- Grupos de radio button (selección única) -->
+        <p>Grupo 1 de opciones:</p>
+        <p>
+            <input type="radio" id="option1a" name="group1" value="1a">
+            <label for="option1a">Opción 1A</label><br>
+            <input type="radio" id="option1b" name="group1" value="1b">
+            <label for="option1b">Opción 1B</label>
+        </p>
+        <p>Grupo 2 de opciones:</p>
+        <p>
+            <input type="radio" id="option2a" name="group2" value="2a">
+            <label for="option2a">Opción 2A</label><br>
+            <input type="radio" id="option2b" name="group2" value="2b">
+            <label for="option2b">Opción 2B</label>
+        </p>
+
+        <!-- Lista desplegable -->
+        <p>
+            <label for="dropdown">Lista desplegable:</label>
+            <select id="dropdown" name="dropdown">
+                <option value="opcion1">Opción 1</option>
+                <option value="opcion2">Opción 2</option>
+                <option value="opcion3" disabled>Opción 3 (inhabilitada)</option>
+                <option value="opcion4">Opción 4</option>
+            </select>
+        </p>
+
+        <!-- Área de texto con colores y tamaño modificados -->
+        <p>
+            <label for="textarea">Área de texto:</label>
+            <textarea id="textarea" name="textarea">ejercicio 6 de HTML, prueba de introducción de texto...</textarea>
+        </p>
+    </form>
+    <br>
+    <br>
+    <h1>HOJA DE INSCRIPCIÓN<br> EN LOS CICLOS FORMATIVOS DE GRADO SUPERIOR</h1>
+        <p class="inicio_form">Datos personales</p>
+        <form action="formularioDatos2.html" method="get">
+        <!-- Formulario fondo gris -->
+            <fieldset class="fondogris">
+            <p>
+                <label for="f1_nombre">Nombre:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <label for="f1_apellidos">Apellidos:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <label for="f1_dni">DNI:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+            </p>
+            <p>
+                <input type="text" name="Nombre" id="f1_nombre">
+                <input type="text" name="Apellidos" id="f1_apellidos">
+                <input type="text" name="DNI" id="f1_dni">
+            </p>
+            <p>
+                <laber for="f1_localidad">Localidad Nacimiento:&emsp;&emsp;</laber>
+                <laber for="f1_provincia">Provincia:&emsp;&emsp;&emsp;&emsp;&emsp;</laber>
+                <laber for="f1_fecha">Fecha Nacimiento</laber>
+            </p>
+            <p>
+                <input type="text" name="localidadn" id="f1_localidad">
+                <select name"Provincia" id="f1_provincia">
+                    <option value="GR">Granada</option>
+                    <option value="SE">Sevilla</option>
+                    <option value="HU">Huelva</option>
+                    <option value="CO">Córdoba</option>
+                    <option value="AL">Almería</option>
+                    <option value="MA">Málaga</option>
+                    <option value="JA">Jaen</option>
+                    <option value="CA">Cádiz</option>
+                </select>
+                <input type="date" id="f1_fecha">
+            </p>
+            <p>
+                <label for="f1_direccion">Dirección:&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</label>
+                <label for="f1_cp">C.P.</label>
+            </p>
+                <input type="" name="Dirección" id="f1_direccion">
+                <input type="" name="C.P." id="f1_cp">
+                <input type="checkbox" name="uno" id="check1"
+                <label for="check1">Haz check si está correcto</label>
+            </fieldset>
+        </form>
+        <!-- Formulario fondo rosa -->
+        <p class="inicio_form">Forma de Acceso</p>
+        <form action="formularioDatos2.html" method="get">
+            <fieldset class="fondorosa">
+                <p>
+                    <input type="radio" id="direct" name="facceso" value="Direct">
+                    <label for="direct">Direct</label><br>
+                </p>
+                <p>
+                    <input type="radio" id="bachi" name="facceso" value="bachi">
+                    <label for="bachi">&emsp;Bachillerato LOGSE. Modalidad</label>
+                    <input type="text" name="bachi" id="bachi">
+                </p>
+                <p>
+                    <input type="radio" id="bachiEX" name="facceso" value="bachiEX">
+                    <label for="bachiEX">&emsp;Bachillerato Experimental</label>
+                </p>  
+                <p>  
+                    <input type="radio" id="cou" name="facceso" value="cou">
+                    <label for="cou">&emsp;COU. Opción:</label>
+                    <input type="text" name="cou" id="cou">
+                </p>  
+                <p>  
+                    <input type="radio" id="fp2" name="facceso" value="fp2">
+                    <label for="fp2">&emsp;FP2</label>
+                </p> 
+                <p>   
+                    <input type="radio" id="otros" name="facceso" value="otros">
+                    <label for="otros">&emsp;Otros (especifique)</label>
+                    <input type="text" name="otros" id="otros">
+                </p>  
+                <p>  
+                    <input type="radio" id="libre" name="facceso" value="libre">
+                    <label for="libre">Prueba libre</label>
+                </p>
+                </fieldset>
+            </form>
+        <!-- Formulario fondo rojo -->
+        <p class="inicio_form">Documentos adjuntos</p>
+        <form action="formularioDatos2.html" method="get">
+            <fieldset class="fondorojo">
+                <p>
+                    <input type="radio" id="dni" name="documentos" value="dni">
+                    <label for="dni">Fotocopia DNI</label>
+                    <input type="radio" id="certificado" name="documentos" value="cerfiticado">
+                    <label for="cetificado">Certificado Académico</label>
+                </p>
+                <p>
+                    <input type="radio" id="otros_doc" name="documentos" value="otros_doc">
+                    <label for="otros_doc">Otros documentos</label>
+                    <input type="text" name="otros_doc" id="otros_doc">
+                </p>
+            </fieldset>
+                <input type="submit" value="Enviar Solicitud"></main>
+            </form>
+</body>
+</html>

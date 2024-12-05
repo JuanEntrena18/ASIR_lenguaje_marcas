@@ -1,0 +1,41 @@
+.parrafo1{
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    text-align: justify;
+    border-top: 3px dotted black;
+    border-bottom: 3px dotted black;
+    border-left: 3px solid blue;
+    border-right: 3px solid blue;
+    line-height: 1.7;
+    padding: 20px;
+}
+.parrafo2{
+    background-color: #add8e6;
+    color: #00008b;
+    width: 75%;
+    text-align: right;
+    border-top: 10px dashed yellow;
+    border-right: 10px dashed brown;
+    border-bottom: 10px dashed black;
+    border-left: 10px dashed pink;
+    line-height: 25px;
+    margin: 60px;
+}
+.parrafo3{
+    background-color: #d3d3d3;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    border: 3px ridge black;
+    margin: 20px;
+    padding: 15px;
+}
+.parrafo4{
+    background-color: #a9a9a9;
+    color: white;
+    font-weight: bold;
+    text-align: justify;
+    border: 2px solid black;
+    border-radius: 25px 10px;
+}

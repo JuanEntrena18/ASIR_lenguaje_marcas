@@ -1,0 +1,15 @@
+.singrafico{
+    list-style: none;
+}
+.circulos{
+    list-style: circle;
+}
+.cuadrados{
+    list-style: square;
+}
+.romanos{
+    list-style: lower-roman;
+}
+.tabulado{
+    margin-left: 30px;
+}

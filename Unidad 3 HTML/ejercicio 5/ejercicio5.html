@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/ejercicio5.css">
+    <title>Ejercicio 5 JEG</title>
+</head>
+<body>
+    <h1>Ejercicio 5 Juan Fco Entrena Garrido</h1>
+    <h2>Ejercicio de tablas</h2>
+    <!--Tabla horario de clase-->
+    <table class="horario">
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+          </tr>
+          <tr>
+            <td>8:15 - 9:15</td>
+            <td rowspan="2">BBDD</td>
+            <td rowspan="2">ISO</td>
+            <td rowspan="2">HARDWARE</td>
+            <td rowspan="2">BBDD</td>
+            <td rowspan="2">ISO</td>
+          </tr>
+          <tr>
+            <td>9:15 - 10:15</td>
+          </tr>
+          <tr>
+            <td>10:15 - 11:15</td>
+            <td>DIGITALIZACIÓN</td>
+            <td>BBDD</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td>SOSTENIBILIDAD</td>
+          </tr>
+          <tr>
+            <td>11:15 - 11:45</td>
+            <td colspan="5">PAUSA PARA EL CAFÉ</td>
+          </tr>
+          <tr>
+            <td>11:45 - 12:45</td>
+            <td>ISO</td>
+            <td>BBDD</td>
+            <td>REDES</td>
+            <td>ISO</td>
+            <td rowspan="2">REDES</td>
+          </tr>
+          <tr>
+            <td>12:45 - 13:45</td>
+            <td>HARDWARE</td>
+            <td rowspan="2">REDES</td>
+            <td rowspan="2">IPE</td>
+            <td rowspan="2">MARCAS</td>
+          </tr>
+          <tr>
+            <td>13:45 - 14:45</td>
+            <td>MARCAS</td>
+            <td>IPE</td>
+          </tr>
+    </table>
+    <br>
+    <hr>
+<!--Siguiente tabla-->
+<table class="externa">
+	<tbody>
+		<tr>
+			<td></td>
+			<td colspan="2">Una tabla dentro de otra tabla</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td rowspan="3"><img src="./images/Logotipo_de_la_Junta_de_Andalucía_2020.svg" alt="logo junta" width="100" height="100"></td>
+			<td rowspan="3" colspan="2">
+                <table class="interior">
+                    <tbody>
+                        <tr>
+                            <td rowspan="2">&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                            <td class="anchofijo" colspan="2">&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                            <td rowspan="2">&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2"></td>
+                        </tr>
+                        <tr>
+                            <td colspan="4"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+			<td rowspan="3"></td>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+		</tr>
+		<tr>
+			<td></td>
+			<td colspan="2"></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+<hr>
+<hr>
+<!--Siguiente tabla-->
+<table class="iphone">
+	<tbody>
+		<tr>
+			<td colspan="2"></td>
+			<td colspan="4"><img src="./images/klipartz.com.png" alt="ipod azul" width="100" height="100"></td>
+			<td colspan="2"><img src="./images/Ipod (White).png" alt="ipod blanco" width="100" height="100"></td>
+		</tr>
+		<tr>
+			<td colspan="2">Capacidad</td>
+			<td>2GB</td>
+			<td colspan="2">4GB</td>
+			<td>8GB</td>
+			<td>32GB</td>
+			<td>2GB</td>
+		</tr>
+		<tr>
+			<td colspan="2">Colores</td>
+			<td>Blanco</td>
+			<td colspan="2">
+                <ul>
+                    <li>Negro</li>
+                    <li>Rosa</li>
+                    <li>Dorado</li>
+                </ul>
+            </td>
+			<td>Negro</td>
+			<td colspan="2">
+                <ul>
+                    <li>Negro</li>
+                    <li>Blanco</li>
+                </ul>
+            </td>
+		</tr>
+		<tr>
+			<td colspan="2">Pantalla</td>
+			<td colspan="4">3 pulgadas</td>
+			<td colspan="2">7 Pulgadas</td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="2">Tiempo de carga</td>
+			<td colspan="4" rowspan="2">1 Hora</td>
+			<td colspan="2">5 horas</td>
+		</tr>
+		<tr>
+			<td colspan="2">30 min para 75%</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>

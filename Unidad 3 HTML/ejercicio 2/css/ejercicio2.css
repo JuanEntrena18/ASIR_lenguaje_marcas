@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #d7fcff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/banner\ jentrena.jpg")
+}
+h1 {
+  color: #ffffff;
+  font-size: x-large;
+}
+p {
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+  font-style: italic;
+}

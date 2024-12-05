@@ -1,0 +1,34 @@
+table , td, th {
+	border: 1px inset #595959;
+}
+td, th {
+	padding: 3px;
+	width: 30px;
+	height: 25px;
+}
+th {
+	background: #f0e6cc;
+}
+.interior, .interior td, .interior.th, .interior.tr{
+	width: 100%;
+	border: 2px solid black;
+	background-color: white;
+}
+.anchofijo{
+	width: 50%;
+	background-color: blue;
+}
+.interior tr{
+	height: 50%;
+}
+.externa td, .externa th, .externa.tr{
+	width: 30%;
+	border: 2px solid white;
+	background-color: aqua;
+}
+.externa td{
+	width: 30%;
+}
+.iphone{
+	border-collapse: collapse;
+}
